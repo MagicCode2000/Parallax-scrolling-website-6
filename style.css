@@ -26,7 +26,6 @@ header nav a{
     font-weight: 600;
     padding: 10px 15px;
     border-radius: 50px;
-    cursor: pointer;
 }
 header nav a:hover,
 header nav .active{
