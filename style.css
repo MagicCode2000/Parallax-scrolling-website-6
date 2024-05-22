@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    z-index: 99;
+}
+header nav a{
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+header nav a:hover,
+header nav .active{
+    color: white;
+    background-color: #07382f;
+}
+.Home{
+    min-height: 100vh;
+    background-color: #cdfff8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Home h1{
+    font-size: 75px;
+    color: white;
+    position: absolute;
+    margin-top: 15px;
+}
+.Home img{
+    position: absolute;
+    width: 100%;
+}
+.Home .leaf-1,.leaf-2{
+    top: 0;
+}
+.Home .plant{
+    bottom: 0;
+}
+.About{
+    min-height: 100vh;
+    background-color: #07382f;
+    color: white;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+.About h1{
+    font-size: 40px;
+}
+.About p{
+    font-size: 16px;
+}
